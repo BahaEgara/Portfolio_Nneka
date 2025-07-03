@@ -1832,3 +1832,28 @@ text-align: justify;
     bottom: 2rem;
   }
 }
+
+
+.video-section {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--smokey-black);
+  color: var(--white);
+  text-align: center;
+}
+
+.video-section .section-title {
+  font-family: var(--ff-recoleta);
+  font-size: var(--fs-2);
+  margin-bottom: 30px;
+}
+
+.video-section .video-description {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  color: var(--white_a70);
+  max-width: 700px;
+  margin: 0 auto;
+}
